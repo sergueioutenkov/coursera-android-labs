@@ -82,7 +82,7 @@ public class ActivityLoaderActivity extends Activity {
 		// TODO - Create a base intent for viewing a URL
 		// (HINT:  second parameter uses Uri.parse())
 
-		Uri webpage = Uri.parse("http://www.android.com");
+		Uri webpage = Uri.parse("http://www.google.com");
 		Intent baseIntent = new Intent(Intent.ACTION_VIEW, webpage);
 		
 		// TODO - Create a chooser intent, for choosing which Activity
